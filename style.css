@@ -1,0 +1,129 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+html, body {background: #003459; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 18px; color: #F1F0EA;}
+.clear {clear: both;}
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #AFD0D6;
+}
+
+#profile {
+	width: 90%;
+	max-width: 900px;
+	background: #7C898B;
+	margin: 40px auto;
+	border-radius: 25px;
+}
+
+.mainDetails {
+	padding: 25px 45px;
+	padding-bottom: 120px;
+	border-bottom: 2px solid #FF6B6B;
+	background: #3A506B;
+	border-radius: 25px;
+}
+
+#mainPage {
+	padding: 25px 35px;
+	border-bottom: 2px solid #5BC0BE;
+	background: #3A506B;
+}
+
+#mainArea {
+	padding: 0 30px;
+}
+
+section {
+	border-top: 2px solid #FF6B6B ;
+	padding: 20px 0 0 20px;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 40px 10px 40px;
+}
+
+#name h1 {
+	font-size:2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	padding: 0 40px 0 40px;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	padding: 0 40px 0 40px;
+}
+
+.sectionTitles {
+	float: left;
+	width: 22%;
+}
+
+.sectionTitles h1 {
+	font-size:1.6em;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: oblique;
+	font-weight: bold;
+	color: #003459;
+}
+
+.sectionContent {	
+	float: right;
+	width: 75%;
+	padding-bottom: 20px;
+}
+
+#headshot {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#contactDetails {
+	float: right;
+}
+
+#contactDetails ul li a:hover { 
+	color: #FF6B6B;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: #0B132B;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	color: #0B132B; 
+	text-decoration: none;
+}
+
+#name {
+	float: left;
+}
